@@ -1,0 +1,133 @@
+body
+{
+	background-color: #000000;
+	color: lightgray;
+	font-size: 20px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+}
+
+#pojemnik
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tytul
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+}
+
+#Restauracja
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#prawo
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 300px;
+}
+
+#menu
+{
+	width: 450px;
+	text-align: center;
+	min-height: 220px;
+}
+
+#aktualny_stan
+{
+	width: 450px;
+	text-align: center;
+	min-height: 20px;
+}
+
+#imie
+{
+	width: : 450px;
+	text-align: center;
+	min-height: 80px;
+}
+
+#zamow
+{
+	width: : 450px;
+	text-align: center;
+	min-height: 100px;
+}
+
+#komunikat
+{
+	width: : 450px;
+	text-align: left;
+	min-height: 100px;
+}
+
+#zadanie1
+{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#zadanie2
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#zadanie3
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.potrawa
+{
+	width: 120px;
+	height: 25px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.zamow
+{
+	width: 300px;
+	height: 40px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.zamow:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.potrawa:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
